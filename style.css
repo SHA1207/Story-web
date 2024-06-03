@@ -1,0 +1,140 @@
+*
+{
+margin:0;
+padding:0;
+}
+
+.showcase{
+    color: rgb(173, 25, 72);
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container
+{
+  position: absolute;
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.video-container video
+{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+}
+
+.content
+{
+  z-index: 5;
+  text-align: center;
+}
+
+.content h1
+{
+  font-size:60px;
+}
+
+.content a
+{
+  background-color: blue;
+  color:white;
+  line-height: 1.5;
+  padding:10px;
+  border: 1px solid white;
+  text-decoration: none;
+
+}
+
+.Mid-Section
+{
+  width:100%;
+  background-color: rgb(221, 221, 239);
+}
+
+#para1{
+  font-style: italic;
+  line-height:1.5;
+  font-variant:small-caps;
+  font-size:20px;
+}
+
+#para1::first-letter
+{
+  color:rgb(193, 8, 8);
+  font-size:60px;
+}
+
+.Mid-Section p img
+{
+  height:50vh;
+  width:80%;
+}
+
+.Mid-Section-2
+{
+  width:100%;
+  background-color: rgb(221, 221, 239);
+}
+
+#para2{
+  font-style: italic;
+  line-height:1.5;
+  font-variant:small-caps;
+  font-size:20px;
+}
+
+#para2::first-letter
+{
+  color:rgb(193, 8, 8);
+  font-size:60px;
+}
+
+.Mid-Section-2 p img
+{
+  height:50vh;
+  width:80%;
+}
+
+#Like
+{
+  padding: 40px;
+  text-align: center;
+}
+
+#Like h1
+{
+  font-size:40px;
+  color:rgb(193, 8, 8); 
+}
+
+#Like p
+{
+  font-size:20px;
+  color:rgb(27, 15, 72); 
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#Like h2
+{
+  font-size:20px;
+  font-style: italic;
+}
+
+.Social a {
+  text-decoration: none;
+}
+
+.Social a:hover {
+cursor: pointer;
+text-decoration:underline;
+opacity: 0.6;
+}
